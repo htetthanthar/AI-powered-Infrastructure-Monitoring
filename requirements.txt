@@ -1,0 +1,11 @@
+# Python 3.9+
+# Minimum versions; tested with the Module 26 environment
+# (Python 3.14, streamlit 1.58, pandas 3.0, numpy 2.5, scikit-learn 1.9, matplotlib 3.11)
+# and with Python 3.9 (streamlit 1.50).
+streamlit>=1.40
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+matplotlib>=3.6
+plotly>=5.18
+psutil>=5.9
