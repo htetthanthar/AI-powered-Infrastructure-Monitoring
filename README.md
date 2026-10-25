@@ -84,7 +84,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The dashboard opens in your browser at **http://localhost:8501**.
+The dashboard opens in your browser at **https://ai-powered-infrastructure-monitoring.streamlit.app/**.
 
 Sidebar controls:
 
