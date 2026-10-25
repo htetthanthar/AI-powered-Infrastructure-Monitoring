@@ -1,8 +1,8 @@
 # AI-Powered Infrastructure Monitoring
 
-Required Assignment 26.1 – DevOps and Cloud with AI.
+Research Project – DevOps and Cloud with AI.
 
-This project extends the **Module 26 PredictiveAI demo app** into the solution the assignment asks for:
+This project extends the **Module 26 AI-Powered Infrastructure Monitoring demo app** into the solution the assignment asks for:
 
 1. **Anomaly detection** – an **Isolation Forest** (scikit-learn) finds abnormal CPU, Memory and Network behaviour, including injected incident spikes and a gradual memory leak.
 2. **Capacity forecasting** – **Linear Regression** forecasts disk utilisation for the **next 30 days** and shows when the **85% warning threshold** will be reached.
@@ -27,10 +27,17 @@ ai-powered-infrastructure-monitoring/
 │   └── storage_usage.csv     # 90 days of daily disk usage
 ├── diagrams/                 # architecture, ML, data, CI/CD and frontend/backend diagrams (PNG + SVG)
 └── screenshots/
+    ├── system_architecture.png
+    ├── ml_pipeline.png
+    ├── data_pipeline.png
+    ├── frontend_backend_data.png
+    ├── fullstack_workflow.png
+    ├── cicd_pipeline.png
     ├── anomaly_detection_chart.png
     ├── capacity_forecast_chart.png
-    ├── streamlit_dashboard.png
-    ├── streamlit_dashboard_live_mode.png
+    ├── streamlit_dashboard_1.png
+    ├── streamlit_dashboard_2.png
+    ├── streamlit_dashboard_3.png
     └── solution_architecture.png
 ```
 
